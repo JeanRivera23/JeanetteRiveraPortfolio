@@ -1,7 +1,6 @@
 /*======= Mobile first boilerplate =====*/
 
 /* Styles that apply to all devces*/
-
 body {
   background-color: #fdfbee;
   color: #353439;
@@ -17,22 +16,22 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px;
   width: 120px;
   height: 35px;
-  background-color: #edeef1;
-  border: 3px solid #6f06ff;
+  background-color: #fdfbee;
+  border: 3px solid #77daf1;
   font-size: 18px;
   letter-spacing: .05em;
   font-weight: bold;
 }
 
 .btn:hover {
-  background-color: #6f06ff;
-  color: #edeef1;
+  background-color: #77daf1;
+  color: #fdfbee;
 }
 
-.startNav {
+nav {
     font-family: 'Amatic SC', cursive;
     font-weight: bold;
-    position: fixed;
+    position: absolute;
     top: 80px;
     left: 0px;
     width: 100%;
@@ -61,12 +60,16 @@ li:hover {
 
 .fixnav {
   position: fixed;
-  background-color: white;
-  top: 40px;
+  background-color: #beeef8;
+  /*background-image: url("/images/navBackground.jpg");*/
+  background-image: url("/images/2144.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0px;
   padding-top: 15px;
   padding-bottom: 15px;
   width: 100%;
-  text-align: center;
+  z-index: 10;
 }
 
 /* Larger than mobile */
@@ -159,15 +162,88 @@ li:hover {
   }
 
   #linkImg {
+    background-image: url("/images/linkedin.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    left: -10px;
     width: 50px;
     height: 50px;
-    margin-right: 10px;
   }
 
+
   #gitImg {
+    background-image: url("/images/github.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    position: relative;
+    top: 5px;
     width: 50px;
     height: 50px;
   }
+
+  .socialMedia {
+    position: relative;
+    top: 80px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .legal {
+    position: relative;
+    top: 80px;
+  }
+
+  .credit1 {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: #fdfbee;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    letter-spacing: .2em;
+    text-align: center;
+    width: 90%;
+  }
+
+  .credit {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: #fdfbee;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: .2em;
+    text-align: center;
+    width: 90%;
+  }
+
+  .footerNav {
+
+  }
+
+  .footerNav a {
+    text-decoration: none;
+  }
+
+  .footerNav li {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    display: inline;
+    color: #fdfbee;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-right: 30px;
+    letter-spacing: .2em;
+  }
+
+  .footerNav li:hover {
+    color: #77daf1;
+    margin-bottom: 30px;
+  }
+
 
 
 }
