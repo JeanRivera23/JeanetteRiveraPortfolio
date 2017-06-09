@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
    var navBar = document.querySelector("#nav")
 
    window.addEventListener("scroll", function (e) {
-     if (window.pageYOffset > 150) {
+     if (window.pageYOffset > 250) {
        navBar.classList.remove("startNav");
        navBar.classList.add("fixnav");
      } else {
